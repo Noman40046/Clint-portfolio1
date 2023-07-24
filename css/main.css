@@ -1,0 +1,217 @@
+/* Common Data */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: rgb(50, 18, 96) !important;
+    background: radial-gradient(circle, rgba(50, 18, 96, 1) 0%, rgba(19, 4, 40, 1) 0%, rgba(50, 18, 96, 1) 100%) !important;
+    color: rgb(233, 231, 231)!important;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.text-4xl{
+    color: white!important;
+}
+
+.text-2xl{
+    color: white!important;
+}
+
+ul li a{
+    color: white!important;
+}
+
+.text-lg{
+    color: white!important;
+}
+
+.text-3xl{
+    color: white!important;
+}
+.text-gray-500{
+    color: white!important;
+}
+p{
+    color: white!important;
+}
+
+.top-down
+{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+
+
+}
+
+.main-background {
+    background: rgb(50, 18, 96);
+    background: radial-gradient(circle, rgba(50, 18, 96, 1) 0%, rgba(19, 4, 40, 1) 0%, rgba(50, 18, 96, 1) 100%);
+}
+
+.main-button {
+    background: rgb(50, 18, 96) !important;
+    background: radial-gradient(circle, rgba(50, 18, 96, 1) 0%, rgba(19, 4, 40, 1) 0%, rgba(50, 18, 96, 1) 100%) !important;
+    border: 2px solid white !important;
+}
+
+.main-border {
+    border: 1px solid rgb(50, 18, 96) !important;
+}
+
+/* Start here */
+nav {
+    background: rgb(50, 18, 96);
+    background: linear-gradient(90deg, rgba(50, 18, 96, 1) 0%, rgba(19, 4, 40, 1) 0%, rgba(50, 18, 96, 1) 100%);
+}
+
+.nav-item {
+    background: transparent !important;
+}
+
+.notify-me {
+    background: rgb(50, 18, 96) !important;
+    background: radial-gradient(circle, rgba(50, 18, 96, 1) 0%, rgba(19, 4, 40, 1) 0%, rgba(50, 18, 96, 1) 100%) !important;
+}
+
+#default-email {
+    background: transparent !important;
+}
+
+.company-details {
+    border-top: 1px solid rgb(50, 18, 96);
+    border-bottom: 1px solid rgb(50, 18, 96);
+}
+
+/* about section */
+.about-section #fullWidthTabContent {
+    background: rgb(50, 18, 96) !important;
+    background: radial-gradient(circle, rgba(50, 18, 96, 1) 0%, rgba(19, 4, 40, 1) 0%, rgba(50, 18, 96, 1) 100%) !important;
+    margin-bottom: 50px;
+}
+
+.about-section ul li {
+    background: rgb(50, 18, 96) !important;
+    background: radial-gradient(circle, rgba(50, 18, 96, 1) 0%, rgba(19, 4, 40, 1) 0%, rgba(50, 18, 96, 1) 100%) !important;
+}
+
+.about-button {
+    background: transparent !important;
+    border: 1px solid rgb(50, 18, 96);
+    color: white !important;
+}
+
+/* services */
+.service-border {
+    border: 1px solid rgb(50, 18, 96) !important;
+}
+
+/* project */
+
+/* .project-img {
+    z-index: 99 !important;
+} */
+
+.project-background {
+    background: rgb(25, 7, 50);
+    background: linear-gradient(90deg, rgba(25, 7, 50, 1) 0%, rgba(0, 0, 0, 1) 100%) !important;
+    z-index: 9999 !important;
+    margin-top: -10px;
+}
+
+/* Slider*/
+.testimonial-container .owl-carousel .owl-item img {
+    display: block;
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 100% !important;
+}
+
+.testimonial-container .owl-carousel .owl-nav button.owl-next {
+    background: rgb(89, 16, 191);
+    background: linear-gradient(90deg, rgba(89, 16, 191, 1) 0%, rgba(0, 0, 0, 1) 100%) !important;
+    padding: 20px !important;
+    margin-bottom: 40px;
+}
+
+.testimonial-container .owl-carousel .owl-nav button.owl-prev {
+    background: rgb(89, 16, 191);
+    background: linear-gradient(90deg, rgba(89, 16, 191, 1) 0%, rgba(0, 0, 0, 1) 100%) !important;
+    padding: 20px !important;
+    margin-bottom: 40px;
+}
+
+.lan-icon
+{
+    width: 85px!important;
+    height: auto!important;
+}
+
+.interest-icon
+{
+    width: 60px!important;
+    height: auto!important; 
+}
+
+.clint-image
+{
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 15px solid white;
+    overflow: hidden;
+}
+.kawser-img
+{
+    width: 100%;
+    height: 100%;
+    filter: grayscale(.7);
+    transition: .3s;
+    
+    
+}
+.kawser-img:hover
+{
+
+    filter: grayscale(0);
+    transform: scale(1.1) rotate(4deg);
+    
+}
+
+.main-background1
+{
+    background-color: transparent!important;
+    border: none!important;
+}
+
+
+.company-icons
+{
+    font-size: 50px;
+    background-color: red;
+}
+
+
+@media(max-width:991px){
+    .portfolio-responsive{
+        padding-top: 60px;
+    }
+    .responsive-block{
+        display: none!important;
+    }
+    #contact{
+        margin-top: 60px!important;
+    }
+}

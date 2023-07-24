@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="img/fav-icon.png" type="image/x-icon">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 navigation">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="" class="flex items-center">
+                <span
+                    class="main-button p-2 self-center text-xl rounded font-semibold whitespace-nowrap dark:text-white uppercase">Kawsar </span>
+            </a>
+            <div class="flex md:order-2">
+                <button type="button"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 main-button">Download
+                    Resume</button>
+                <button data-collapse-toggle="navbar-cta" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200   dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                    aria-controls="navbar-cta" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-cta">
+                <ul
+                    class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700 nav-item">
+                    <li>
+                        <a href="#hero"
+                            class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                            aria-current="page">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about-part"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                    </li>
+                    <li>
+                        <a href="#services"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+                    </li>
+                    <li>
+                        <a href="#work"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Project</a>
+                    </li>
+                    <li>
+                        <a href="#testimonial"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Testimonial</a>
+                    </li>
+                    <li>
+                        <a href="#contact"
+                            class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="main-background">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 z-10 relative">
+            <a href="#"
+                class="responsive-block inline-flex justify-between items-center py-1 px-1 pr-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-blue-900 dark:text-blue-300 hover:bg-blue-200 dark:hover:bg-blue-800">
+                <!-- <span class="text-xs bg-blue-600 rounded-full text-white px-4 py-1.5 mr-3">New</span> --> <span
+                    class="responsive-block text-sm text-white font-medium pl-4 top-title">Works in Veemo as a Software Engineer
+                    </span>
+                <svg class="w-2.5 h-2.5 ml-2 responsive-block" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 6 10">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="m1 9 4-4-4-4" />
+                </svg>
+            </a>
+            <h1
+                class="mb-4 text-4xl uppercase font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                MERN Stack & Front-End Developer</h1>
+            <p class="mb-8 text-lg font-normal  text-white lg:text-xl sm:px-16 lg:px-48 dark:text-gray-200">I'm a web developer and programmer. My expertise in React, Node, Express, MongoDb and other JavaScript libraries. As a tech enthusiastic I love to work with new technologies.</p>
+            <form class="w-full max-w-md mx-auto">
+                <label for="default-email" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Email
+                    sign-up</label>
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none">
+                        <svg class="w-4 h-4  text-white  " aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 16">
+                            <path
+                                d="m10.036 8.278 9.258-7.79A1.979 1.979 0 0 0 18 0H2A1.987 1.987 0 0 0 .641.541l9.395 7.737Z" />
+                            <path
+                                d="M11.241 9.817c-.36.275-.801.425-1.255.427-.428 0-.845-.138-1.187-.395L0 2.6V14a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V2.5l-8.759 7.317Z" />
+                        </svg>
+                    </div>
+                    <input type="email" id="default-email"
+                        class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-white focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-800 dark:border-gray-700 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Enter your email here..." required>
+                    <button type="submit"
+                        class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 notify-me">Notify
+                        Me</button>
+                </div>
+            </form>
+        </div>
+        <!--  <div
+            class="bg-gradient-to-b from-blue-50 to-transparent dark:from-blue-900 w-full h-full absolute top-20 left-0 z-0">
+        </div> -->
+    </section>
+
+
+    <!-- Company Included -->
+    <section id="partner" class="bg-white main-background company-details">
+        <div class="py-8 lg:py-16 mx-auto max-w-screen-xl px-4">
+            <h1
+                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center pb-10">
+                I'm Working In These</h1>
+            <div
+                class="grid grid-cols-2 gap-8  text-white sm:gap-12 md:grid-cols-3 lg:grid-cols-6  ">
+              
+
+                <a href="#" class="flex justify-center items-center">
+                    <img class="lan-icon" src="img/lan-iimg/one.png" alt="">         
+                    
+                </a>
+
+                <a href="#" class="flex justify-center items-center">
+                    <img class="lan-icon" src="img/lan-iimg/two.png" alt="">         
+                    
+                </a>
+
+
+                <a href="#" class="flex justify-center items-center">
+                    <img class="lan-icon" src="img/lan-iimg/three.png" alt="">         
+                    
+                </a>
+
+
+
+                <a href="#" class="flex justify-center items-center">
+                    <img class="lan-icon" src="img/lan-iimg/four.png" alt="">         
+                    
+                </a>
+
+
+                <a href="#" class="flex justify-center items-center">
+                    <img class="lan-icon" src="img/lan-iimg/five.png" alt="">                    
+                </a>
+
+                <a href="#" class="flex justify-center items-center">
+                    <img class="lan-icon" src="img/lan-iimg/six.png" alt="">                    
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-part" class="main-background pt-10">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 grid lg:grid-cols-2 gap-8 lg:gap-16">
+            <div class="flex flex-col justify-center">
+                <h1
+                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    Interesting !! About Me - Be Smile</h1>
+                <!-- About Me Details -->
+                <div class="w-full  rounded-lg shadow about-section">
+                    <div class="sm:hidden">
+                        <label for="tabs" class="sr-only">Select tab</label>
+                        <select id="tabs"
+                            class="bg-gray-50 border-0 border-b border-gray-200 text-gray-900 text-sm rounded-t-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option>Interest</option>
+                            <option>Education</option>
+                            <option>FAQ</option>
+                        </select>
+                    </div>
+                    <ul class="hidden text-sm font-medium text-center  text-white divide-x divide-gray-200 rounded-lg sm:flex dark:divide-gray-600   mt-10"
+                        id="fullWidthTab" data-tabs-toggle="#fullWidthTabContent" role="tablist">
+                        <li class="w-full">
+                            <button id="stats-tab" data-tabs-target="#stats" type="button" role="tab"
+                                aria-controls="stats" aria-selected="true"
+                                class="inline-block w-full p-4 rounded-tl-lg bg-gray-50 hover:bg-gray-100 focus:outline-none text-black about-button">Interest</button>
+                        </li>
+                        <li class="w-full">
+                            <button id="about-tab" data-tabs-target="#about" type="button" role="tab"
+                                aria-controls="about" aria-selected="false"
+                                class="about-button inline-block w-full p-4 bg-gray-50 hover:bg-gray-100 focus:outline-none text-black">Education</button>
+                        </li>
+                        <li class="w-full">
+                            <button id="faq-tab" data-tabs-target="#faq" type="button" role="tab" aria-controls="faq"
+                                aria-selected="false"
+                                class="about-button inline-block w-full p-4 rounded-tr-lg bg-gray-50 hover:bg-gray-100 focus:outline-none text-black">FAQ</button>
+                        </li>
+                    </ul>
+                    <div id="fullWidthTabContent" class="border-t border-gray-200 dark:border-gray-600">
+                        <div class="hidden p-4 " id="stats" role="tabpanel" aria-labelledby="stats-tab">
+                            <dl
+                                class="grid max-w-screen-xl grid-cols-2 gap-8 p-4 mx-auto text-gray-900 sm:grid-cols-3 xl:grid-cols-3 dark:text-white sm:p-8">
+                                <div class="flex flex-col items-center justify-center">
+                                    <img class="interest-icon" src="img/interest/travel.png" alt="">
+                                    <dd class=" text-white  ">Travel</dd>
+                                </div>
+                                <div class="flex flex-col items-center justify-center">
+                                    <img class="interest-icon" src="img/interest/music.png" alt="">
+                                    <dd class=" text-white  ">Music</dd>
+                                </div>
+                                <div class="flex flex-col items-center justify-center">
+                                    <img class="interest-icon" src="img/interest/technology.png" alt="">
+                                    <dd class=" text-white  ">Technology</dd>
+                                </div>
+                            </dl>
+                        </div>
+                        <div class="hidden p-4" id="about" role="tabpanel" aria-labelledby="about-tab">
+                            <h2 class="mb-5 text-2xl font-extrabold tracking-tight text-gray-900 dark:text-white">Let's overview my educational information-</h2>
+                            <!-- List -->
+
+                            <ol class="relative border-l border-gray-200 dark:border-gray-700">
+                                <li class="mb-10 ml-4">
+                                    <div
+                                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                                    </div>
+
+                                    <time
+                                    class="mb-1 text-sm font-normal leading-none text-gray-400 dark: text-white">MSC in Computer Science & Engineering</time>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Rajshahi University</h3> 
+                                <p class="text-base font-normal  text-white  ">2022-Current
+                                </p>                                                           
+                                </li>
+                                <li class="mb-10 ml-4">
+                                    <div
+                                        class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
+                                    </div>
+                                    <time
+                                    class="mb-1 text-sm font-normal leading-none text-gray-400 dark: text-white">Bachelor Of Science-BS,Computer Science & Engineering</time>
+                                <h3 class="text-lg font-semibold text-gray-900 dark:text-white">Begum Rokeya University, Rangpur</h3> 
+                                <p class="text-base font-normal  text-white  ">2018-2022
+                                </p> 
+                                           
+                                </li>                     
+                            </ol>
+                        </div>
+                        <div class="hidden p-4 bg-white rounded-lg main-background" id="faq" role="tabpanel"
+                            aria-labelledby="faq-tab">
+
+                            <div id="accordion-open" data-accordion="open">
+                                <h2 id="accordion-open-heading-1">
+                                    <button type="button"
+                                        class="flex items-center justify-between w-full p-5 font-medium text-left  text-white border border-b-0 border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700   hover:bg-gray-100 dark:hover:bg-gray-800"
+                                        data-accordion-target="#accordion-open-body-1" aria-expanded="true"
+                                        aria-controls="accordion-open-body-1">
+                                        <span class="flex items-center"><svg class="w-5 h-5 mr-2 shrink-0"
+                                                fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg> Have you worked on any notable projects?</span>
+                                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M9 5 5 1 1 5" />
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-open-body-1" class="hidden"
+                                    aria-labelledby="accordion-open-heading-1">
+                                    <div
+                                        class="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900">
+                                        <p class="mb-2  text-white  ">
+                                            Yes, I have had the opportunity to work on several exciting projects throughout my career. One notable project was developing a scalable e-commerce platform for a major retail company, which significantly improved their online sales and customer experience.</p>                           
+                                    </div>
+                                </div>
+                                <h2 id="accordion-open-heading-2">
+                                    <button type="button"
+                                        class="flex items-center justify-between w-full p-5 font-medium text-left  text-white border border-b-0 border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700   hover:bg-gray-100 dark:hover:bg-gray-800"
+                                        data-accordion-target="#accordion-open-body-2" aria-expanded="false"
+                                        aria-controls="accordion-open-body-2">
+                                        <span class="flex items-center"><svg class="w-5 h-5 mr-2 shrink-0"
+                                                fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg>Can you explain your approach to problem-solving?</span>
+                                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M9 5 5 1 1 5" />
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-open-body-2" class="hidden"
+                                    aria-labelledby="accordion-open-heading-2">
+                                    <div class="p-5 border border-b-0 border-gray-200 dark:border-gray-700">
+                                        <p class="mb-2  text-white  ">
+                                             When faced with a problem, I believe in thoroughly understanding the issue at hand before formulating a solution. I break down complex problems into smaller, manageable tasks and leverage my analytical skills to identify patterns and potential solutions. Collaboration and seeking input from team members are also vital aspects of my problem-solving approach.</p>
+                                       
+                                    </div>
+                                </div>
+                                <h2 id="accordion-open-heading-3">
+                                    <button type="button"
+                                        class="flex items-center justify-between w-full p-5 font-medium text-left  text-white border border-gray-200 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700   hover:bg-gray-100 dark:hover:bg-gray-800"
+                                        data-accordion-target="#accordion-open-body-3" aria-expanded="false"
+                                        aria-controls="accordion-open-body-3">
+                                        <span class="flex items-center"><svg class="w-5 h-5 mr-2 shrink-0"
+                                                fill="currentColor" viewBox="0 0 20 20"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                                    clip-rule="evenodd"></path>
+                                            </svg> Are you comfortable working in a team or independently?</span>
+                                        <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true"
+                                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                                stroke-width="2" d="M9 5 5 1 1 5" />
+                                        </svg>
+                                    </button>
+                                </h2>
+                                <div id="accordion-open-body-3" class="hidden"
+                                    aria-labelledby="accordion-open-heading-3">
+                                    <div class="p-5 border border-t-0 border-gray-200 dark:border-gray-700">
+                                        <p class="mb-2  text-white  ">
+                                            A: I am adaptable and comfortable working in both team-based and independent environments. I thrive in collaborative settings, where I can contribute my expertise and learn from others. At the same time, I am self-motivated and can work independently, taking ownership of projects and delivering results.</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clint-image">
+                <img class="kawser-img" src="img/kawsar.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- servive section------- -->
+    <section id="services" class="bg-white main-background main-border">
+        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+            <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+                <h1
+                    class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                    My Services</h1>
+            </div>
+            <div class="grid gap-6 lg:grid-cols-3">
+
+                <!-- services -->
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow main-background service-border mb-8">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="img/service/api.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Api Development</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-white  ">I can create robust and secure APIs using Express.js and Node.js. This involves designing API endpoints, handling authentication and authorization.</p>               
+                    </div>
+                </div>
+                <!-- services -->
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow main-background service-border mb-8">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="img/service/web-app.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Web Application</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-white  ">You can build custom web applications tailored to your clients' specific needs. This involves understanding their requirements, designing the application architecture.</p>
+                     
+                    </div>
+                </div>
+                <!-- services -->
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow main-background service-border mb-8">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="img/service/data.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Database Design</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-white  "> With MongoDB as the database component of the MERN stack, you can design and implement database schemas, set up data models, and establish seamless integration.</p>
+                    
+                    </div>
+                </div>
+                <!-- services -->
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow main-background service-border">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="img/service/web-dev.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Web Development</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-white  ">I can develop end-to-end web applications using the MERN stack, handling both the front-end and back-end components. This includes creating interactive user interfaces with React.js.</p>
+                      
+                    </div>
+                </div>
+                <!-- services -->
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow main-background service-border">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="img/service/single.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Single-Page Application</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-white  ">Using React.js and the MERN stack, i can develop single-page applications that provide a smooth and dynamic user experience. SPAs eliminate page reloads.</p>
+                        
+                    </div>
+                </div>
+                <!-- services -->
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow main-background service-border">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="img/service/optimization.png" alt="" />
+                    </a>
+                    <div class="p-5">
+                        <a href="#">
+                            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Performance Optimization</h5>
+                        </a>
+                        <p class="mb-3 font-normal text-white  "> I can optimize the performance of MERN stack applications by implementing techniques such as code optimization, caching, database indexing, and load balancing.</p>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ====== Project Section Start -->
+    <section id="work" x-data="
+        {
+          showCards: 'all',
+          activeClasses: 'bg-primary text-white',
+          inactiveClasses: 'text-body-color hover:bg-primary hover:text-white',
+        }
+      " class="pb-12 lg:pt-[60px] lg:pb-[90px]">
+        <div class="container mx-auto">
+            <div class="-mx-4 flex flex-wrap">
+                <div class="w-full px-4">
+                    <div class="mx-auto mb-[60px] max-w-[510px] text-center">
+                        <h1
+                            class="portfolio-responsive mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
+                            My Projects</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="-mx-4 flex flex-wrap justify-center">
+                <div class="w-full px-4">
+                    <ul class="mb-12 flex flex-wrap justify-center space-x-1">
+                        <li class="mb-1">
+                            <button @click="showCards = 'all' "
+                                :class="showCards == 'all' ? activeClasses : inactiveClasses "
+                                class="main-border inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                All Projects
+                            </button>
+                        </li>
+                        <li class="mb-1">
+                            <button @click="showCards = 'branding' "
+                                :class="showCards == 'branding' ? activeClasses : inactiveClasses "
+                                class="main-border inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                Web Application
+                            </button>
+                        </li>
+                        <li class="mb-1">
+                            <button @click="showCards = 'design' "
+                                :class="showCards == 'design' ? activeClasses : inactiveClasses "
+                                class="main-border inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                Custom Website
+                            </button>
+                        </li>
+                        <li class="mb-1">
+                            <button @click="showCards = 'development' "
+                                :class="showCards == 'development' ? activeClasses : inactiveClasses "
+                                class="main-border inline-block rounded-lg py-2 px-5 text-center text-base font-semibold transition md:py-3 lg:px-8">
+                                Others
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="-mx-4 flex flex-wrap">
+                <div :class="showCards == 'all' || showCards == 'branding' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="overflow-hidden rounded-lg">
+                            <img src="img/project/1.png"
+                                alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="project-background relative z-10 mx-7 -mt-20 rounded-lg bg-white py-9 px-3 text-center shadow-lg">
+                            <span class="text-primary mb-2 block text-sm font-semibold">
+                                Online platform
+                            </span>
+                            <h3 class="text-dark mb-4 text-xl font-bold">E-commerce Website</h3>
+                            <a href="javascript:void(0)"
+                                class="main-button main-border text-body-color hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div :class="showCards == 'all' || showCards == 'marketing' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="overflow-hidden rounded-lg">
+                            <img src="img/project/2.png"
+                                alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="project-background relative z-10 mx-7 -mt-20 rounded-lg bg-white py-9 px-3 text-center shadow-lg">
+                            <span class="text-primary mb-2 block text-sm font-semibold">
+                                Online platform
+                            </span>
+                            <h3 class="text-dark mb-4 text-xl font-bold">
+                               Web Application
+                            </h3>
+                            <a href="javascript:void(0)"
+                                class="main-button main-border text-body-color hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div :class="showCards == 'all' || showCards == 'development' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="overflow-hidden rounded-lg">
+                            <img src="img/project/3.png"
+                                alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="project-background relative z-10 mx-7 -mt-20 rounded-lg bg-white py-9 px-3 text-center shadow-lg">
+                            <span class="text-primary mb-2 block text-sm font-semibold">
+                                Online platform
+                            </span>
+                            <h3 class="text-dark mb-4 text-xl font-bold">Project Management Tool</h3>
+                            <a href="javascript:void(0)"
+                                class="main-button main-border text-body-color hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div :class="showCards == 'all' || showCards == 'design' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="overflow-hidden rounded-lg">
+                            <img src="img/project/4.png"
+                                alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="project-background relative z-10 mx-7 -mt-20 rounded-lg bg-white py-9 px-3 text-center shadow-lg">
+                            <span class="text-primary mb-2 block text-sm font-semibold">
+                                Online platform
+                            </span>
+                            <h3 class="text-dark mb-4 text-xl font-bold">
+                                Social Media Application
+                            </h3>
+                            <a href="javascript:void(0)"
+                                class="main-button main-border text-body-color hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div :class="showCards == 'all' || showCards == 'marketing' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="overflow-hidden rounded-lg">
+                            <img src="img/project/5.png"
+                                alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="project-background relative z-10 mx-7 -mt-20 rounded-lg bg-white py-9 px-3 text-center shadow-lg">
+                            <span class="text-primary mb-2 block text-sm font-semibold">
+                                Online platform
+                            </span>
+                            <h3 class="text-dark mb-4 text-xl font-bold">Chat Application</h3>
+                            <a href="javascript:void(0)"
+                                class="main-button main-border text-body-color hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white">
+                                Chat Application
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div :class="showCards == 'all' || showCards == 'branding' ? 'block' : 'hidden' "
+                    class="w-full px-4 md:w-1/2 xl:w-1/3">
+                    <div class="relative mb-12">
+                        <div class="overflow-hidden rounded-lg">
+                            <img src="img/project/6.png"
+                                alt="portfolio" class="w-full" />
+                        </div>
+                        <div
+                            class="project-background relative z-10 mx-7 -mt-20 rounded-lg bg-white py-9 px-3 text-center shadow-lg">
+                            <span class="text-primary mb-2 block text-sm font-semibold">
+                                Online platform
+                            </span>
+                            <h3 class="text-dark mb-4 text-xl font-bold">E-commerce Website</h3>
+                            <a href="javascript:void(0)"
+                                class="main-button main-border text-body-color hover:bg-primary hover:border-primary inline-block rounded-md border py-3 px-7 text-sm font-semibold transition hover:text-white">
+                                View Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ====== Project Section End -->
+
+
+    <!-- Testimonials -->
+    <section id="testimonial" class="bg-white main-background main-border testimonial-container">
+        <h1
+            class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center pt-20">
+            Testimonials</h1>
+        <!-- Slider -->
+        <div class="owl-carousel owl-theme">
+            <!-- slider-1------------ -->
+            <div class="item max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                <figure class="max-w-screen-md mx-auto">
+                    <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                            fill="currentColor" />
+                    </svg>
+                    <blockquote>
+                        <p class="text-2xl font-medium text-gray-900 dark:text-white">"After working with k_koushik, I can confidently say that the web design project was completed flawlessly and in record time. He demonstrated exceptional attention to detail, ensuring that every aspect of the website was and user-friendly."</p>
+                    </blockquote>
+                    <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                        <img class="w-6 h-6 rounded-full"
+                            src="img/cl-1.jpg"
+                            alt="profile picture">
+                        <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                            <div class="pr-3 font-medium text-gray-900 dark:text-white">kiloklawo</div>
+                            <div class="pl-3 text-sm font-light  text-white  ">Full Stack Developer</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- slider-2----------- -->
+            <div class="item max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                <figure class="max-w-screen-md mx-auto">
+                    <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                            fill="currentColor" />
+                    </svg>
+                    <blockquote>
+                        <p class="text-2xl font-medium text-gray-900 dark:text-white">"Koushik is an absolute pleasure to work with as a seller, he was unbelievably patient with me as my programming skills aren’t good and he guided me and went out of his way to also show me some skills."</p>
+                    </blockquote>
+                    <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                        <img class="w-6 h-6 rounded-full"
+                        src="img/cl-2.jpg"
+                            alt="profile picture">
+                        <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                            <div class="pr-3 font-medium text-gray-900 dark:text-white">shah_11</div>
+                            <div class="pl-3 text-sm font-light  text-white  ">Software Engineer</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+            <!-- slider-3----------- -->
+            <div class="item max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
+                <figure class="max-w-screen-md mx-auto">
+                    <svg class="h-12 mx-auto mb-3 text-gray-400 dark:text-gray-600" viewBox="0 0 24 27" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M14.017 18L14.017 10.609C14.017 4.905 17.748 1.039 23 0L23.995 2.151C21.563 3.068 20 5.789 20 8H24V18H14.017ZM0 18V10.609C0 4.905 3.748 1.038 9 0L9.996 2.151C7.563 3.068 6 5.789 6 8H9.983L9.983 18L0 18Z"
+                            fill="currentColor" />
+                    </svg>
+                    <blockquote>
+                        <p class="text-2xl font-medium text-gray-900 dark:text-white">"I PROMISE NOT TO WORK WITH ANYBODY ELSE FOR FRONT END DEVELOPMENT … KOUSHIK IS THE REAL DEAL AND I LOOK FORWARD TO OUR EVERLASTING BUSINESS RELATIONSHIP TOGETHER."</p>
+                    </blockquote>
+                    <figcaption class="flex items-center justify-center mt-6 space-x-3">
+                        <img class="w-6 h-6 rounded-full"
+                        src="img/cl-3.jpg"
+                            alt="profile picture">
+                        <div class="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
+                            <div class="pr-3 font-medium text-gray-900 dark:text-white">drewabraham</div>
+                            <div class="pl-3 text-sm font-light  text-white  ">Software Engineer</div>
+                        </div>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Contact section -->
+    <section id="contact" class="bg-white main-background main-border">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+            <h1
+                class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center pb-10">
+                Contact Me</h1>
+            <form action="#" class="space-y-8">
+                <div>
+                    <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your
+                        Email</label>
+                    <input type="email" id="email"
+                        class="border-primary-500 main-background bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                        placeholder="name@flowbite.com" required>
+                </div>
+                <div>
+                    <label for="subject"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>
+                    <input type="text" id="subject"
+                        class="border-primary-500 main-background block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                        placeholder="Let us know how we can help you" required>
+                </div>
+                <div class="sm:col-span-2">
+                    <label for="message" class="block mb-2 text-sm font-medium dark:text-gray-300">Your
+                        Message</label>
+                    <textarea id="message" rows="6"
+                        class="border-primary-500 main-background block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                        placeholder="Leave a comment..."></textarea>
+                </div>
+                <button type="submit"
+                    class="main-button py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-primary-700 sm:w-fit hover:bg-primary-800 focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Send
+                    Message</button>
+            </form>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="bg-white  shadow main-background relative main-border">
+        <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+            <span class="text-sm  text-white sm:text-center  ">© 2023 <a href="https://www.facebook.com/TechITrick420/friends_likes/"
+                    class="hover:underline">Kawsar Mollik</a>. All Rights Reserved.
+            </span>
+            <ul class="flex flex-wrap items-center mt-3 text-sm font-medium  text-white   sm:mt-0">
+                <li>
+                    <!-- facebook -->
+                    <a href="https://www.facebook.com/koushik.mollik007" target="_blank">
+                        <button type="button" data-te-ripple-init data-te-ripple-color="light"
+                        class="inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                        style="background-color: #1877f2">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
+                        </svg>
+                    </button>
+                    </a>
+               
+                </li>         
+                <li>
+                    <!-- Linkedin -->
+                    <a href="https://www.linkedin.com/in/kawsar-mollik-7bb368186/" target="_blank">
+                        <button type="button" data-te-ripple-init data-te-ripple-color="light"
+                        class="ml-5 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                        style="background-color: #0077b5">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z" />
+                        </svg>
+                    </button>
+                    </a>
+                  
+                </li>
+                <li>
+                    <!-- Telegram -->
+                    <a href="https://t.me/k_koushik_007" target="_blank">
+                        <button type="button" data-te-ripple-init data-te-ripple-color="light"
+                        class="ml-5 inline-block rounded px-6 py-2.5 text-xs font-medium uppercase leading-normal text-white shadow-md transition duration-150 ease-in-out hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg"
+                        style="background-color: #0088cc">
+                        <svg class="h-4 w-4" fill="currentColor" viewbox="0 0 24 24" version="1.1"
+                            xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xml:space="preserve" xmlns:serif="http://www.serif.com/"
+                            style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+                            <path id="telegram-1"
+                                d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z" />
+                        </svg>
+                    </button>
+                    </a>
+                  
+                </li>
+            </ul>
+        </div>
+
+        <a href="#" class="top-down"><iconify-icon icon="mdi:arrow-up-bold"></iconify-icon></a>
+    </footer>
+
+
+
+
+
+    <!-- Script js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
+    <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <!-- Owl Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 1
+                }
+            }
+        })
+    </script>
+<!-- icon link----- -->
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
